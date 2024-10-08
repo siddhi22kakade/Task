@@ -3,9 +3,13 @@ module.exports = {
   content: ['./src/**/*.{html,js}'], // Adjust this to your file structure
   theme: {
     extend: {
-      // Customizations here
+       colors:{
+        blue: {
+          500: '#1D4ED8'
+       },
     },
   },
   plugins: [],
-};
+}
 
+};
